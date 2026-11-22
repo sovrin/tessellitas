@@ -2,11 +2,9 @@
 
 Keyboard-driven window tiling for macOS, with its own layout for each display.
 
-<p align="center">
-  <img src="docs/screenshot.png" alt="Editing the Ultrawide 1-3-1 profile in tessellitas" width="420">
-</p>
-
 Split an ultrawide into ⅕ · ⅗ · ⅕ and a second monitor into halves, then snap windows into those zones with a key press. tessellitas lives in the menu bar.
+
+<img src="docs/menubar.png" width="438" alt="tessellitas menu bar panel: an ultrawide display on the 1-3-1 profile, a second display on Halves, and the keyboard shortcuts">
 
 ## Features
 
@@ -16,6 +14,8 @@ Split an ultrawide into ⅕ · ⅗ · ⅕ and a second monitor into halves, then
 - **Grow and shrink.** Make the focused window's zone bigger or smaller and its neighbours give way, so everything stays flush. The change is temporary: assigning a window to a zone again goes back to the profile.
 - **Animated moves**, with a small overlay showing the new size.
 - **A visual profile editor.** Drag zones around, resize them from the corners, or generate a layout from sizes such as `1 3 1`.
+
+<img src="docs/screenshot.png" width="420" alt="Editing the Ultrawide 1-3-1 profile in the tessellitas settings">
 
 ## Requirements
 
